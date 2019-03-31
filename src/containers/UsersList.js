@@ -80,7 +80,7 @@ export class UsersList extends Component {
   };
 
   sanitizeInput = input => {
-    return input.toLowerCase().trim();
+    return input.toLowerCase().trim()
   };
 
   render () {
